@@ -1,0 +1,83 @@
+body {
+    margin: 0;
+    background-color: #f4f5f5;
+    padding: 0;
+    height: 4000px;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+    cursor: pointer;
+    display: block;
+}
+
+ul li {
+    position: relative;
+    list-style: none;
+    height: 46px;
+    line-height: 46px;
+    margin: 5px 0;
+}
+
+.dig {
+    width: 300px;
+    margin: 700px 0 0 1000px;
+    background: #fff;
+}
+
+.cat1 {
+    margin-left: 23px;
+    height: 55px;
+    width: 100%;
+    display: block;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 55px;
+    color: #1d2129;
+    border-bottom: 1px solid #e4e6eb;
+}
+
+.cat2 {
+    position: relative;
+}
+
+.pp {
+    position: relative;
+    margin-left: 23px;
+    height: 46px;
+    line-height: 46px;
+}
+
+.poi {
+    /* display: none; */
+    content: "";
+    position: absolute;
+    top: 16px;
+    left: 0;
+    width: 4px;
+    height: 16px;
+    background: #1e80ff;
+    border-radius: 0 4px 4px 0;
+    line-height: 16px;
+}
+
+.poi1 {
+    /* display: none; */
+    content: "";
+    position: absolute;
+    top: 15px;
+    left: -40px;
+    width: 4px;
+    height: 16px;
+    background: #1e80ff;
+    border-radius: 0 4px 4px 0;
+}
+
+a:hover {
+    background-color: pink;
+}
+
+.dig {
+    position: absolute;
+}
